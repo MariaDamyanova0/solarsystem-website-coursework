@@ -1,2 +1,2 @@
 # university-coursework
-My university course projects and assignments, organized by year and subject
+This is my first try to make a website using html and java for one of my university courses.
