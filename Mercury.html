@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Меркурий</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">МЕРКУРИЙ</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        
+        <div class="img-container">
+            <img src="assets/IMG/mercury.png" alt="Меркурий" style="width:400px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>ОбЩИ ФАКТИ</h2>
+            <p>   Меркурий е най-близката планета до Слънцето и е седмата по големина планета в Слънчевата система. 
+                Тя е и най-малката планета в Слънчевата система, по размери сравнима с Луната, но с много по-голяма маса.
+                 Меркурий се смята за терестриална или каменна планета, подобно на Земята, Венера и Марс.Носи името на
+                римския бог Меркурий, богът-вестител. С диаметър от около 4 880 километра, Меркурий прилича на Луната и по
+                кратерната си повърхност.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 4 880 километра</li>
+                <li>Разстояние до Слънцето: Приблизително 57,9 милиона километра</li>
+                <li>Орбитален период (година): Приблизително 88 земни дни</li>
+                <li>Температура на повърхността: Варира от -173°C до 427°C</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Повърхностни Особености</h2>
+            <p>  Както споменахме,повърхността на Меркурий е покрита с кратери. Има и обширни равнини и опастности 
+            (като скалисти форми на терена). Повърхността на планетата е силно кратерена поради ударите от астероиди и комети.</p>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Пътешествие из Слънчевата система</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Exo:wght@400;700&subset=cyrillic&display=swap">
+    <script src="script.js" defer></script>
+
+    <style>
+
+        header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px;
+            position: relative;
+        }
+
+        header .glowing-text {
+            margin: 0 auto;
+            text-align: center; 
+            flex-grow: 1;
+            position: absolute; 
+            left: 50%; 
+            transform: translateX(-50%);
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <button id="factButton" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+        <h1 class="glowing-text">НАШАТА СЛЪНЧЕВА СИСТЕМА</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>          
+        
+        <section>
+            <h2>НА КРАТКО ЗА НАШАТА СЛЪНЧЕВА СИСТЕМА:
+            <img src="assets/IMG/mercury.png" alt="Меркурий" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/venus.png" alt="Венера" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/earth.png" alt="Земя" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/mars.png" alt="Марс" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/jupiter.png" alt="Юпитер" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/saturn.png" alt="Сатурн" style="width:100px;height:
+            50px;">
+            <img src="assets/IMG/uranus.png" alt="Уран" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/neptune.png" alt="Нептун" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/moon.png" alt="Луната" style="width:50px;height:
+            50px;">
+            <img src="assets/IMG/sun.png.png" alt="Слънцето" style="width:50px;height:
+            50px;">
+            </h2>
+            
+            
+
+            <p> Добре дошли в уебсайта за нашата Слънчева система! Слънчевата система е поредица от небесни тела, които включват Слънцето, 
+                планетите и техните спътници, астероидите, кометите и други космически обекти,които са свързани с гравитационна връзка 
+                към Слънцето. Тя е дом на нашата планета Земя и едно от най-мистериозните и удивителни места в Космоса.</p>
+
+                <section id="solarSystem">
+                    <div class="orbit" id="orbit-mercury"><div id="mercury" class="planet"></div></div>
+                    <div class="orbit" id="orbit-venus"><div id="venus" class="planet"></div></div>
+                    <div class="orbit" id="orbit-earth"><div id="earth" class="planet"></div></div>
+                    <div class="orbit" id="orbit-mars"><div id="mars" class="planet"></div></div>
+                    <div class="orbit" id="orbit-jupiter"><div id="jupiter" class="planet"></div></div>
+                    <div class="orbit" id="orbit-saturn"><div id="saturn" class="planet"></div></div>
+                    <div class="orbit" id="orbit-uranus"><div id="uranus" class="planet"></div></div>
+                    <div class="orbit" id="orbit-neptune"><div id="neptune" class="planet"></div></div>
+                    <div id="sun"></div>
+                </section>
+                
+            <p>КАКВО МОЖЕМ ДА ОЧАКВАМЕ?</p>
+                
+            <p>В този уебсайт ще ви запознаем с основните характеристики и интересни факти за всяка от планетите в нашата 
+                Слънчева система, включително Слънцето и Луната. Ще се натъкнете на интересна информация за техния 
+                произход, състав, размер и уникални особености.</p>
+                
+            <p>ЗАЩО Е ВАЖНА СЛЪНЧЕВАТА СИСТЕМА?</p>
+                
+            <p>Слънчевата система не е само красиво и вълнуващо място - тя играе важна роля за разбирането ни за Космоса и за живота 
+                на Земята. От планетите, които се движат около Слънцето, до астероидите и кометите, които преминават през нея,
+                Слънчевата система ни възбужда любопитството и вдъхновява дългогодишни изследвания и открития.</p>
+                
+            <p>С този уебсайт се надяваме да откриете зашеметяващата красота и важност на нашата Слънчева система.
+                Започнете с разглеждането и се потопете в удивителния свят на Космоса!</p>
+                
+            <p> Можете да намерите повече информация за всеки планета, като кликнете на съответните връзки по-горе.</p>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+        
+        
+        
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+
+</body>
+
+</html>

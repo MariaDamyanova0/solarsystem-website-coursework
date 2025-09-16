@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Венера</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">ВЕНЕРА</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/venus.png" alt="Венера" style="width:400px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>ОБЩИ ФАКТИ</h2>
+            <p>   Венера е втората планета от Слънцето и е най-близката планета до Земята. Тя е именувана на римската богиня
+             на любовта и красотата. Венера е планета с подобни размери и структура като Земята, често наричана „сестрата на Земята“.
+             Планетата Венера е известна също като "Утринна звезда" и "Вечерна звезда", тъй като може да бъде видяна на небето наблизо 
+             до Слънцето, когато се издига на изток (утринна звезда) или залязва на запад (вечерна звезда).Венера обикаля около Слънцето
+             в посока, обратна на посоката на обикновените часови стрелки, което я прави единствената планета в Слънчевата система, която
+             се движи така.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 12 104 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 108,2 милиона километра</li>
+                <li>Орбитален период (година): Приблизително 225 земни дни</li>
+                <li>Средна температура на повърхността: Около 462°C</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Атмосфера и Повърхност</h2>
+            <p>  Венера е планета с гъста атмосфера, която съдържа основно въглероден диоксид и облачен покрив от сяра. Повърхността й е 
+               покрита с голям брой вулкани, кратери и планини от лава.</p>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

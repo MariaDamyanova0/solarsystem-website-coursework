@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уран</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">УРАН</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/uranus.png" alt="Уран" style="width:400px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>ОБЩИ ФАКТИ</h2>
+            <p>    Уран е седмата планета от Слънцето и е третият по големина газов гигант в Слънчевата система. Той е уникален с това,
+               че неговата ос на въртене е почти перпендикулярна на орбитата му, което означава, че Уран се върти "настрани".Планетата 
+               има бледосиньо-зелен цвят, който се дължи на метана в атмосферата й. Уран също така притежава тънки пръстени и множество 
+               спътници.Уран е известен със своите екстремни сезони, които продължават по 21 години поради наклона на оста му. Това води
+               до дълги периоди на тъмнина или светлина на всеки полюс.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 50 724 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 2,9 милиарда километра</li>
+                <li>Орбитален период (година): Приблизително 84 земни години</li>
+                <li>Средна температура на облаците: Около -224°C</li>
+            </ul>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

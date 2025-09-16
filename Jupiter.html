@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Юпитер</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">ЮПИТЕР</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/jupiter.png" alt="Юпитер" style="width:400px;height:
+            400px;">
+        </div>
+
+
+        <section>
+            <h2>ОБЩИ ФАКТИ</h2>
+            <p>  Юпитер е петата планета от Слънцето и най-голямата планета в Слънчевата система.Юпитер е газов гигант, който се отличава
+               с мощната си атмосфера и големите си планетарни системи.Тази планета е позната също като "Водачът на планетите" и е известна 
+               с белия си ореол, който се наблюдава около него и с големите червени петна, които са големи атмосферни вихрушки или бури,
+               които се наблюдават на повърхността на планетата. Най-известните от тях са Голямото червено петно и други подобни структури.
+               В тези бурни области вихрушките достигат огромни размери и често са активни за дълги периоди от време.Планетата притежава 
+               най-голямата магнитосфера в Слънчевата система и има множество спътници, включително Галилеевите спътници, като Ио, 
+               Европа, Ганимед и Калисто.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 139 822 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 778,6 милиона километра</li>
+                <li>Орбитален период (година): Приблизително 11,9 земни години</li>
+                <li>Средна температура на облаците: Около -145°C</li>
+            </ul>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

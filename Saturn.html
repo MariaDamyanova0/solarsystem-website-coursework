@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сатурн</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">САТУРН</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/saturn.png" alt="Сатурн" style="width:700px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>ОБЩИ ФАКТИ</h2>
+            <p>   Сатурн е шестата планета от Слънцето и е известна със своите впечатляващи пръстени. Сатурн е вторият по големина газов 
+               гигант в Слънчевата система след Юпитер.Пръстените на Сатурн са съставени предимно от лед и скални частици и се разпростират 
+               на стотици хиляди километри от планетата, създавайки една от най-забележителните гледки в Слънчевата система.Планетата има 
+               повече от 80 известни спътника, включително Титан, който е вторият по големина спътник в Слънчевата система и е по-голям от 
+               планетата Меркурий. Титан също така има плътна атмосфера и е обект на интензивни научни изследвания.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 116 460 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 1,4 милиарда километра</li>
+                <li>Орбитален период (година): Приблизително 29,5 земни години</li>
+                <li>Средна температура на облаците: Около -178°C</li>
+            </ul>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

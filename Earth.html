@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Земя</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+    
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">ЗЕМЯТА</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/earth.png" alt="Земя" style="width:400px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>ОБЩИ ФАКТИ</h2>
+            <p>  Земята е третата планета от Слънцето и е единствената планета в Слънчевата система, която е обитаема. Тя е планетата
+              с най-подходящите условия за живот, известна с богатото си разнообразие от екосистеми, океани, планини и животни.Планетата
+              Земя е позната също като "Синята планета", заради характерния си синя цвят, който идва от водата на планетата.Земята има
+              една призматична атмосфера, която е от съществено значение за поддържането на живота на планетата. Атмосферата съдържа
+              кислород, необходим за дишане, и защитава планетата от вредните UV лъчи на Слънцето.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 12 742 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 149,6 милиона километра</li>
+                <li>Орбитален период (година): Приблизително 365,25 дни</li>
+                <li>Средна температура на повърхността: Около 15°C</li>
+            </ul>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

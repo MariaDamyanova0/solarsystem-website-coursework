@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Нептун</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">НЕПТУН</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Mars.html">МАРС</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/neptune.png" alt="Нептун" style="width:400px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>OБЩИ ФАКТИ</h2>
+            <p>  Нептун е осмата планета от Слънцето и е четвъртият по големина газов гигант в Слънчевата система. Той е известен със своя
+               наситено син цвят, който се дължи на метана в атмосферата му.Нептун е открит през 1846 г. и е единствената планета, която
+               не може да бъде видяна с невъоръжено око. Планетата притежава силни ветрове и бури, като "Великото тъмно петно", което е
+               голяма буря, подобна на Голямото червено петно на Юпитер.Нептун има 14 известни спътника, като най-големият е Тритон.
+               Тритон е уникален със своята ретроградна орбита, която показва, че той може да е бил уловен от гравитацията на Нептун.</p>
+        </section>
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 49 244 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 4,5 милиарда километра</li>
+                <li>Орбитален период (година): Приблизително 165 земни години</li>
+                <li>Средна температура на облаците: Около -214°C</li>
+            </ul>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>

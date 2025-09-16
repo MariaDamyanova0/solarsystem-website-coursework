@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Марс</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <h1 class="glowing-text">МАРС</h1>
+        <button id="factButton" class="other-pages-button" onclick="displayRandomFact()">ПОКАЖИ ИНТЕРЕСЕН ФАКТ</button>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">НАЧАЛО</a></li>
+            <li><a href="Mercury.html">МЕРКУРИЙ</a></li>
+            <li><a href="Venus.html">ВЕНЕРА</a></li>
+            <li><a href="Earth.html">ЗЕМЯ</a></li>
+            <li><a href="Jupiter.html">ЮПИТЕР</a></li>
+            <li><a href="Saturn.html">САТУРН</a></li>
+            <li><a href="Uranus.html">УРАН</a></li>
+            <li><a href="Neptune.html">НЕПТУН</a></li>
+            <li><a href="Sun.html">СЛЪНЦЕТО</a></li>
+            <li><a href="Moon.html">ЛУНАТА</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="img-container">
+            <img src="assets/IMG/mars.png" alt="Марс" style="width:400px;height:
+            400px;">
+        </div>
+        <section>
+            <h2>ОБЩИ ФАКТИ</h2>
+            <p>  Марс е четвъртата планета от Слънцето и е втората по големина в Слънчевата система. Тя е известна със своя червен цвят, 
+               който е резултат от присъствието на оксидизация - желязо в камъните на повърхността си.Позната също като "Червената планета",
+               Марс е обект на научни изследвания и интерес в продължение на много години и повдига въпрос за възможността за живот на 
+               нейната повърхност. Известно време се счита, че на повърхността на планетата има течна вода, а също са забелязани ледени капи и ледени облаци.
+               Нейната атмосфера, въпреки че е много по-рядка от тази на Земята, играе важна роля за климата и времето на планетата.</p>
+        </section>
+        
+
+        <section>
+            <h2>КЛЮЧОВИ ФАКТИ</h2>
+            <ul>
+                <li>Диаметър: 6 779 километра</li>
+                <li>Разстояние от Слънцето: Приблизително 227,9 милиона километра</li>
+                <li>Орбитален период (година): Приблизително 687 земни дни</li>
+                <li>Средна температура на повърхността: Около -63°C</li>
+            </ul>
+        </section>
+
+        <div id="factPopup">
+            <p id="factDisplay"></p>
+            <button id="closePopup">Затвори</button>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 SolarSystemWebsite</p>
+    </footer>
+</body>
+
+</html>
